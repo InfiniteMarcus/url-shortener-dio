@@ -12,6 +12,7 @@ Considerando a base do projeto desenvolvida durante o Bootcamp, algumas alteraç
 - Adição de capturas de erros, tanto para requisições mal formadas quanto para problemas internos do servidor.
 - Correção de algumas partes do código base que foram depreciadas (principalmente no pacote `typegoose`)
 - Adição de coleção `URLAccess` para coletar dados dos redirecionamentos feitos pelas URLs encurtadas 
+    - Nela são armazenados o hash da URL encurtada, o IP que soliticou a URL e a data da requisição. Essas informações poderiam ser usados, em um cenário real, para análises de dados no uso do serviço, respeitando as regulamentações necessários de coleta de dados
 - Adição de pacote `dotenv` para gerência de variáveis de ambiente
 
 ## Execução
