@@ -1,6 +1,6 @@
 import { config } from '../config/Constants';
 import { Request, Response } from 'express';
-import shortId from 'shortId';
+import shortId from 'shortid';
 import requestIp from 'request-ip';
 import { URLModel } from '../database/model/URL';
 import { URLAccessModel } from '../database/model/URLAccess';
